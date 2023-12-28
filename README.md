@@ -1,10 +1,11 @@
-# Model-driven and Deep Learning-based Code Generation for Enhanced Web Development
+# Optimized Web Development with Model-Driven Web Engineering (MDWE) and Deep Learning
 
 <br>
 <p align="center">
-  <img src="images/banner.jpeg"/ width = 600>
+  <img src="images/banner.jpg"/ width = 600>
 </p>
-<p align="center"><em>Photo by Mikhail Nilov</em></p>
+<p align="center">Deep learning models facilitate efficient web engineering, often behaving as artificial team members.</p>
+<p align="center"><em>[Representative photo by Mikhail Nilov]</em></p>
 
 ## Overview
 This repository introduces an innovative methodology to simplify web development challenges by incorporating a machine-based code generator. By blending Model-Driven Web Engineering (MDWE) techniques with Deep Learning, the approach offers a streamlined and less code-intensive method for creating web applications. The primary goal is to empower a wider audience, including non-web developers, to contribute effectively to web application development. This repository serves as a platform for exploring and implementing this forward-thinking approach, fostering a more inclusive and efficient web development landscape. Through this methodology, we envision a future where coding for web applications becomes more approachable, enabling diverse individuals to participate meaningfully in the digital ecosystem.
@@ -88,13 +89,13 @@ npm run devStart
 ## Screenshots
 
 <p align="center">
-  <img src="images/model-home.png" width = 750>
+  <img src="images/model-home.png" width = 400>
 </p>
 <p align="center"><em>Homepage</em></p>
 <br>
 
 <p align="center">
-  <img src="images/train-sample.png"/ width = 750>
+  <img src="images/train_sample.png"/ width = 750>
 </p>
 <p align="center"><em>A sample of the html-png pair from the training set</em></p>
 <br>
