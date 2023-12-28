@@ -14,7 +14,7 @@ This repository introduces an innovative methodology to simplify web development
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+- [Training Sample](#training-sample)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
@@ -86,13 +86,7 @@ cd server
 npm run devStart
 ```
 
-## Screenshots
-
-<p align="center">
-  <img src="images/model-home.png" width = 400>
-</p>
-<p align="center"><em>Homepage</em></p>
-<br>
+## Training Sample
 
 <p align="center">
   <img src="images/train_sample.png"/ width = 750>
