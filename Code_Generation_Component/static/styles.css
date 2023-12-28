@@ -1,0 +1,29 @@
+.centering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    border:1px solid black; 
+    background-color:azure;
+    padding:10px;
+}
+
+.menubar {
+    margin: 20px; 
+    font-size:large; 
+    display:flex; 
+    flex-direction:row; 
+    width:fit-content
+}
+
+.newscol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px; 
+    border: 1px solid #000;
+    width: 250px;
+    flex-direction: column;
+}

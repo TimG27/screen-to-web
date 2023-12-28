@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>J component</title>
+    <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
+    <link href="index.html" rel="import" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+<body style="margin: 50px">
+
+<div class = "centering" style = "background-color: whitesmoke">
+    <h1>Model-based Web Engineering</h1>
+</div>
+
+
+<br>
+<br>
+
+<input id = "starttool" type = "button" value = "Start" onclick = "loadcanvas()">
+
+<b id = "tool0" style = "visibility: hidden;">Use Case Diagram Tools: </b>
+<input id = "tool1" type = "button" value="New User" onclick = "genp()" style = "visibility: hidden">
+<input id = "tool2" type = "button" value="New Case" onclick = "gencs()" style = "visibility: hidden">
+
+<br>
+<br>
+
+<div style = "display: flex; flex-direction: row;">
+  <div style = "display: flex; border: 1px solid black; width: 1500px; align-items:center; flex-direction: column;">
+  <p><b><u>Website Preview</u></b></p>
+    <div id = "webprev" style="width: 750px; ">
+      <div id = "prevtitle" name = "prevtitle" class = "centering" style = " background-color:beige">
+
+      </div>
+      <br>
+      <div id = "menubar" class = "centering" style = "flex-direction: row; align-items: flex-start; ">
+  
+      </div>
+      <div id = "cases" class = "centering" style = "flex-direction: row; width: fit-content; border: 1px black;">
+      
+      </div>
+
+    </div>
+  </div>
+<div id = "diagram" style = "display: flex; border: 1px solid black; width: 500px; flex-direction: column; align-items: center;">
+<p> <b>UML Diagram</b></p>
+<img src = "https://itsourcecode.com/wp-content/uploads/2021/05/Library-Management-System-General-Use-Case.png" width="500px">
+</div>
+</div>
+
+
+<script src="script.js?v=<?php echo time(); ?>"></script>
+</body>
+
+</html>
