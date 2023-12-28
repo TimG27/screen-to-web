@@ -72,7 +72,11 @@ python server.py
 The Code Editor Component can be started by running both the npm client and server together. Run the following commands :-
 
 ```bash
-cd Code_Editor_Component
+cd Code_Editor_Component/client/src
+
+del TextEditor.js        #Refreshing the editor
+type TextEditor.js
+cd ../..
 
 cd client
 npm start
